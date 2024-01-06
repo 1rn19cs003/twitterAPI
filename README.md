@@ -11,4 +11,7 @@ Then start running your code using
 python app.py
 ```
 
-deployement Url
+[Deployed Url] (https://twitterapi-ot4t.onrender.com/get_tweets/narendramodi/200)
+
+How to use URL 
+https://twitterapi-ot4t.onrender.com/get_tweets/<username>/<number_of_tweets_we_want(LIMIT 100)>
