@@ -20,5 +20,14 @@ def get_tweets(username,number):
 
     return jsonify(response)
 
+@app.route('/',methods=['GET'])
+def routeChecking():
+     response={
+            'status':'OK',
+            'server status':'Running',
+     }
+     return jsonify(response)
+
+
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
