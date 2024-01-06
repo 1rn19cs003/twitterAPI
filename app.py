@@ -21,16 +21,4 @@ def get_tweets(username,number):
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True)
-# ------------------------
-# from ntscraper import Nitter
-# import time
-# scraper=Nitter()
-# start_time = time.time()
-# tweets = scraper.get_tweets('userName', mode='user', number=5)
-# print(tweets)
-
-# end_time = time.time()
-
-# execution_time = end_time - start_time
-# print(f"Execution time: {execution_time} seconds")
+    app.run(debug=True,host='0.0.0.0')
